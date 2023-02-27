@@ -8,8 +8,8 @@ function funSegitiga(tinggi) {
         }
         segitiga += "\n"
     }
-    return segitiga
+    console.log(segitiga)
 }
 
 //memasukan tinggi segitiga
-console.log(funSegitiga(7));
+funSegitiga(7);
